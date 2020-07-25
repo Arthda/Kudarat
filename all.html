@@ -1,0 +1,215 @@
+<html>
+<head>
+  <title>Image Grid Gallery</title>
+
+<!---------------------------- for slideshow----------------------------------------- -->
+
+
+
+
+
+<!-- links and everything other than slideshow  -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="all.css">
+<!-- <link rel="stylesheet" type="text/css" href="all.js"> -->
+</head>
+
+<body>
+ <!--Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-top navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+     <div class="container">     <!-- i made navbar outside container means whole area but i made the text or the bittons inside the container to look good-->
+
+  <a class="navbar-brand" href="index.html"><i class="fas fa-camera-retro"></i> KUDARAT</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="all.html">Arcade <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contactus.html">Contact</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-right ">
+      <!-- <li class="nav-item active">
+        <a class="nav-link " href="#">Signin</a>
+      </li> -->
+      <li class="nav-item active">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+    </ul>
+   </div>
+   </div>
+</nav>
+<!-- jumbotron -->
+<div id="header" class="container">
+   <div class="jumbotron">
+      <h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+      <!-- <p>A bunch of beautiful pictures</p> -->
+   </div>
+</div>
+
+
+
+<!-- slideshow -->
+
+<div class="containers">
+    <ul id="slides">
+    <li class="slide showing"></li>
+    <li class="slide"></li>
+    <li class="slide"></li>
+    <li class="slide"></li>
+    <!-- <li class="slide"></li> -->
+    
+      <!-- <video autoplay muted loop id="myVideo">
+  <source src="30_06_2020_22_15_57_6170000.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video> -->
+    
+  
+  </ul>
+  
+</div>
+<div class="containers">
+  <div class="lbuttons">
+    <button class="controls leftar"  id="previous">&lt;</button>
+</div>
+
+<div class="mbuttons">
+    <button class="controls midar" id="pause">&#10074;&#10074;</button>
+</div>
+
+<div class="rbuttons">
+    <button class="controls rtar " id="next">&gt;</button>
+  </div>
+
+
+</div>
+
+
+
+
+<!-- now inserting images with grid -->
+<div class="container">
+    <div class="row">
+     <div class="col">
+      
+       <div class="col">
+          <img class ="a"  src="E:\my web\new\pics\SI_20180626_212530.jpg" width:30%;>
+        
+        </div>
+        
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180627_004754.jpg">
+        </div>
+       
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180627_004602.jpg">
+         </div>
+       </div>
+      
+   </div>
+   <div class="row">
+    <div class="col">
+      
+       <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180707_135457.jpg">
+        </div>
+       
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180707_135855.jpg">
+        </div>
+      
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180707_140227.jpg">
+         </div>
+       </div>
+       
+   </div>
+   <div class="row">
+    <div class="col">
+       
+       <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180627_013213.jpg">
+        </div>
+        
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180627_013325.jpg">
+        </div>
+       
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180627_013412.jpg">
+         </div>
+       
+        </div>
+   </div>
+
+<div class="row">
+    <div class="col">
+       
+       <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180706_072040.jpg">
+        </div>
+        
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180706_072223.jpg">
+        </div>
+       
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180706_072040.jpg">
+         </div>
+       
+        </div>
+   </div>
+
+   <div class="row">
+    <div class="col">
+       
+       <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180630_211620.jpg">
+        </div>
+        
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180705_154846.jpg">
+        </div>
+       
+         <div class="col">
+          <img class ="a" src="E:\my web\new\pics\SI_20180630_211657.jpg">
+         </div>
+       
+        </div>
+   </div>
+
+   
+
+
+
+ </div> 
+ 
+<!-- ---------------------- JS for slide show---------------------------------- -->
+
+<script type="text/javascript" src="all.js"></script>
+
+
+
+
+
+<!-- --------------------------------------------------------------------------------- -->
+<!-- including jquery and java script file -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+	border:20px solid #bdc3c7;
+	padding:20px;
+	max-width:700px;
+	width:80%;
+	margin:20px auto;
+	background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0B486B, #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.quote{
+	border-left:5px solid #bdc3c7;
+	padding-left:5px;    /*or 0.2rem   doesnt mean 5px and .2 are same*/
+}
+.date{
+	color:#3498db;
+	text-transform:uppertext;
+	letter-spacing:5px;
+}
+h2{
+	color:#2c3e50;
+	font-size:2.0rem;
+}
+
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+	}
+
+ .post{
+ 	
+ 	margin-bottom:50px;
+ }   
+ p{
+ 	background: linear-gradient(to right, #F56217,#0B486B);
+ }

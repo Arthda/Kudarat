@@ -1,0 +1,217 @@
+body{
+	/*background:url(https://images.unsplash.com/photo-1495366554757-8568e69d7f80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80) ;*/
+	background-size:100%;
+	background-position: center;
+	background-repeat: none;
+background: linear-gradient(to right, #0B486B, #F56217);
+	}
+
+
+img{ 
+    width:300;
+    height:200;
+    float:left;
+    margin:1.66%;
+}
+.jumbotron{background-image: url(https://images.unsplash.com/photo-1505562130589-9879683e72da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+     height:50;    
+}
+.navbar-inverse{
+	background: blue;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+
+.navbar {
+    margin-bottom: 20px; 
+    /*for space btw navbar and jumbotron*/
+}
+.a{
+	width:300;
+	height:300;
+}
+
+
+/*------------------------------------------------------------------------------*/
+/*
+essential styles:
+these make the slideshow work
+*/
+#slides{
+    position: relative;
+    height: 420px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+.controls{
+    display: none;
+}
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+  
+  background-size: cover;
+}
+
+/* http://unrestrictedstock.com/wp-content/uploads/snowy-winter-vignette-bokeh-night-snow-falling-free-stock-photo.jpg */
+.slide:nth-of-type(1){
+	background-color: #0B486B;
+    /*background: linear-gradient(to right, #0B486B, #F56217);*/
+  background-image: url('E:/my web/new/SI_20180630_211451.jpg');
+}
+
+/* http://www.dawghousedesignstudio.com/wp-content/uploads/2010/01/25/free-stock-photos-1.jpg */
+.slide:nth-of-type(2){
+    /*background-color: orange;*/
+  background-image: url('E:/my web/new/SI_20180812_120506.jpg');
+}
+
+/* http://www.stockfreeimages.com/static/homepage/waterfall-free-stock-photo-244915.jpg */
+.slide:nth-of-type(3){
+    /*background-color: orange;*/
+  background-image: url('E:/my web/new/20190528_052055_0.jpg');
+}
+
+.slide:nth-of-type(4){
+    /*background-color: orange;*/
+  background-image: url('E:/my web/new/IMG_20180721_085041.jpg');
+}
+/*.slide:nth-of-type(5){
+    
+  background-image: url('E:/my web/new/IMG_20180822_133557_709.jpg');
+}*/
+
+/*.slide:nth-of-type(6){
+    
+  background-image: url('E:/my web/new/30_06_2020_22_15_57_6170000.mp4');
+}*/
+
+
+.leftar{
+
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+  margin: 10px 0px 0px 10px;
+  width: auto;
+  height:auto;
+}
+
+.midar{
+   background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-style: bold;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 0px 0px 10px;
+  width: 30px;
+  height:auto;
+}
+
+.rtar{
+
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 0px 0px 10px;
+  width: auto;
+  height:auto;
+  shape
+  
+  
+}
+
+.controls:hover {
+	background-color: rgba(0,0,0,0.8);
+
+	},
+.controls:focus{
+  background: #eee;
+  color: #333;
+
+}
+
+.containers{
+  position: relative;
+}
+
+.lbuttons{
+  position: absolute;
+  left: 20px;
+  bottom: 140px;
+  z-index: 10;
+  font-size: 0px;
+
+
+  
+}
+.mbuttons{
+  position: absolute;
+  left: 660px;
+  bottom: 30px;
+  z-index: 10;
+  font-size: 0px;
+}
+.rbuttons{
+  position: absolute;
+  left: 1240px;
+  bottom: 140px;
+  z-index: 10;
+  font-size: 0px;
+
+
+  
+}
+...............................................................

@@ -1,0 +1,50 @@
+#header{
+	background: url(https://images.unsplash.com/photo-1466971060667-16467c7d04ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1443&q=80) center no-repeat ;
+	/*background: url(https://images.unsplash.com/photo-1463428537233-c84b754b2c84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80) center no-repeat ;*/
+	background-position: center;
+	background-size:100%;
+
+
+/*font-family: 'Lobster', cursive;*/ 
+/*if we write font family in header then it changes the font for whole jumbotron but we did it individually for button and heading below*/
+}
+
+#myfont{
+	font-family: 'Lobster';
+}
+#fontmy{
+	font-family: 'Pacifico', cursive;
+}
+
+body{
+	background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.score{
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-family: 'Mountains of Christmas', cursive;
+	
+
+}
+
+.pics{
+	width:30%;
+	height:10%;
+	background:purple;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+}
+#container{
+	margin:0 auto;
+	max-width:600px;
+}
