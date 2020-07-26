@@ -2,8 +2,9 @@ body{
 	/*background:url(https://images.unsplash.com/photo-1495366554757-8568e69d7f80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80) ;*/
 	background-size:100%;
 	background-position: center;
-	background-repeat: none;
+	
 background: linear-gradient(to right, #0B486B, #F56217);
+	background-repeat: none;
 	}
 
 
