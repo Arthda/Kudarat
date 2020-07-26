@@ -97,18 +97,18 @@ just for appearance; change whatever you want
 
 /* http://www.dawghousedesignstudio.com/wp-content/uploads/2010/01/25/free-stock-photos-1.jpg */
 .slide:nth-of-type(2){
-    /*background-color: orange;*/
+    background-color: orange;
   background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/SI_20180812_120506.jpg');
 }
 
 /* http://www.stockfreeimages.com/static/homepage/waterfall-free-stock-photo-244915.jpg */
 .slide:nth-of-type(3){
-    /*background-color: orange;*/
+    background-color: #0B486B;
   background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/20190528_052055_0.jpg');
 }
 
 .slide:nth-of-type(4){
-    /*background-color: orange;*/
+    background-color: orange;
   background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/IMG_20180721_085041.jpg');
 }
 /*.slide:nth-of-type(5){
