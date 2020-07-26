@@ -92,24 +92,24 @@ just for appearance; change whatever you want
 .slide:nth-of-type(1){
 	background-color: #0B486B;
     /*background: linear-gradient(to right, #0B486B, #F56217);*/
-  background-image: url('E:/my web/new/SI_20180630_211451.jpg');
+  background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/SI_20180630_211451.jpg');
 }
 
 /* http://www.dawghousedesignstudio.com/wp-content/uploads/2010/01/25/free-stock-photos-1.jpg */
 .slide:nth-of-type(2){
     /*background-color: orange;*/
-  background-image: url('E:/my web/new/SI_20180812_120506.jpg');
+  background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/SI_20180812_120506.jpg');
 }
 
 /* http://www.stockfreeimages.com/static/homepage/waterfall-free-stock-photo-244915.jpg */
 .slide:nth-of-type(3){
     /*background-color: orange;*/
-  background-image: url('E:/my web/new/20190528_052055_0.jpg');
+  background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/20190528_052055_0.jpg');
 }
 
 .slide:nth-of-type(4){
     /*background-color: orange;*/
-  background-image: url('E:/my web/new/IMG_20180721_085041.jpg');
+  background-image: url('https://raw.githubusercontent.com/Arthda/Kudarat/master/IMG_20180721_085041.jpg');
 }
 /*.slide:nth-of-type(5){
     
